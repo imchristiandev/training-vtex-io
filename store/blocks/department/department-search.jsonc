@@ -1,0 +1,46 @@
+{
+  "store.search#department": {
+    "blocks": [
+      "flex-layout.row#department-title",
+      "search-result-layout",
+      "flex-layout.row#department-info"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "flex-layout.row#department-title": {
+    "children": [
+      "flex-layout.col#department-title"
+    ]
+  },
+  "flex-layout.col#department-title": {
+    "children": [
+      "rich-text#department-title"
+    ]
+  },
+  "rich-text#department-title": {
+    "props": {
+      "text": "# Título de departamento" 
+    }
+  },
+  "flex-layout.row#department-info": {
+    "children": [
+      "flex-layout.col#department-info"
+    ]
+  },
+  "flex-layout.col#department-info": {
+    "children": [
+      "rich-text#department-info"
+    ]
+  },
+  "rich-text#department-info": {
+    "props": {
+      "text": "Footer de departamento con información correspondiente" 
+    }
+  }
+}

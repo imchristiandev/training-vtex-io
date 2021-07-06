@@ -1,0 +1,16 @@
+{
+  "responsive-layout.desktop#home": {
+    "title": "Presentación Desktop",
+    "children": [
+      "flex-layout.row#slider",
+      "flex-layout.row#main-text",
+      "flex-layout.row#discount-grid",
+      "flex-layout.row#monthly-promo-grid"
+    ]
+  },
+  "rich-text#desktop-home": {
+    "props": {
+      "text": "Desktop size"
+    }
+  }
+}

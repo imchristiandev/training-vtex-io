@@ -1,0 +1,123 @@
+{
+  "flex-layout.row#discount-grid": {
+    "title": "Grilla de descuentos",
+    "children": [
+      "flex-layout.col#discount-grid-one",
+      "flex-layout.col#discount-grid-two"
+    ]
+  },
+  "flex-layout.col#discount-grid-one": {
+    "children": [
+      "flex-layout.row#discount-grid-one"
+    ]
+  },
+  "flex-layout.row#discount-grid-one": {
+    "title": "Grilla de descuentos 1",
+    "children": [
+      "flex-layout.col#discount-grid-item-one",
+      "flex-layout.col#discount-grid-item-two"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#discount-grid-item-one": {
+    "children": [
+      "image#grid-item-one"
+    ],
+    "props": {
+      "blockClass": "image"
+    }
+  },
+  "flex-layout.col#discount-grid-item-two": {
+    "children": [
+      "image#grid-item-two"
+    ],
+    "props": {
+      "blockClass": "image"
+    }
+  },
+  "image#grid-item-one": {
+    "title": "Imagen uno",
+    "props": {
+      "src": "assets/img/lavadora-haceb-banner.png",
+      "alt": "Lavadora Haceb"
+    }
+  },
+  "image#grid-item-two": {
+    "title": "Imagen dos",
+    "props": {
+      "src": "assets/img/colchones-fantasia-banner.png",
+      "alt": "Colchones Fantasía"
+    }
+  },
+  "flex-layout.col#discount-grid-two": {
+    "children": [
+      "flex-layout.row#discount-grid-two-top",
+      "flex-layout.row#discount-grid-two-bottom"
+    ]
+  },
+  "flex-layout.row#discount-grid-two-top": {
+    "children": [
+      "flex-layout.col#discount-grid-two-top-one",
+      "flex-layout.col#discount-grid-two-top-two"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#discount-grid-two-top-one": {
+    "children": [
+      "image#grid-item-three"
+    ],
+    "props": {
+      "blockClass": "image"
+    }
+  },
+  "flex-layout.col#discount-grid-two-top-two": {
+    "children": [
+      "image#grid-item-four"
+    ],
+    
+    "props": {
+      "blockClass": "image"
+    }
+  },
+  "image#grid-item-three": {
+    "title": "Imagen tres",
+    "props": {
+      "src": "assets/img/linea-blanca-samsung.png",
+      "alt": "Lavadora Haceb"
+    }
+  },
+  "image#grid-item-four": {
+    "title": "Imagen cuatro",
+    "props": {
+      "src": "assets/img/play-station-nintendo-switch.png",
+      "alt": "Colchones Fantasía"
+    }
+  },
+  "flex-layout.row#discount-grid-two-bottom": {
+    "children": [
+      "flex-layout.col#discount-grid-two-bottom"
+    ],
+    "props": {
+      "blockClass": "image"
+    }
+  },
+  "flex-layout.col#discount-grid-two-bottom": {
+    "children": [
+      "image#grid-item-five"
+    ],
+    "props": {
+      "blockClass": "image"
+    }
+  },
+  "image#grid-item-five": {
+    "title": "Imagen cinco",
+    "props": {
+      "src": "assets/img/televisor-samsung.png",
+      "alt": "Colchones Fantasía"
+    }
+  }
+}

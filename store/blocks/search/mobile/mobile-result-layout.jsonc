@@ -1,0 +1,10 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#breadcrumb",
+      "flex-layout.row#search-title",
+      "flex-layout.row#result",
+      "flex-layout.row#fetch-more"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "flex-layout.row#main-text": {
+    "title":  "Contenedor de info principal",
+    "children": [
+      "flex-layout.col#main-text"
+    ]
+  },
+  "flex-layout.col#main-text": {
+    "children": [
+      "rich-text#main-text-title",
+      "rich-text#main-text-paragraph",
+      "modal-trigger#terms-and-conditions"
+    ]/* ,
+    "props": {
+      "horizontalAlign": "CENTER"
+    } */
+  },
+  "rich-text#main-text-title": {
+    "props": {
+      "text": "# OLÍMPICA EN JULIO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#main-text-paragraph": {
+    "props": {
+      "text": "Trae para tí, las mejores promociones para el mes de julio, te invitamos a conocer lo que traemos para tí, **Bienvenido a súper julio**",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "modal-trigger#terms-and-conditions": {
+    "children": [
+      "rich-text#terms-and-conditions",
+      "modal-layout#terms-and-conditions"
+    ]
+  },
+  "rich-text#terms-and-conditions": {
+    "props": {
+      "text": "Términos y condiciones",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "modal-layout#terms-and-conditions": {
+    "children": [
+      "modal-actions.close",
+      "rich-text#terms-and-condition-title",
+      "rich-text#terms-and-conditions-paragraph"
+    ]
+  },
+  "modal-actions.close": {
+    "props": {
+      "label": "x"
+    }
+  },
+  "rich-text#terms-and-condition-title": {
+    "props": {
+      "text": "## TÉRMINOS Y CONDICIONES",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#terms-and-conditions-paragraph": {
+    "props": {
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
+    }
+  }
+}

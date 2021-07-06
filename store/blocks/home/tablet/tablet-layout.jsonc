@@ -1,0 +1,14 @@
+{
+  "responsive-layout.tablet#home": {
+    "title": "Presentación Tablet",
+    "children": [
+      "rich-text#tablet-home",
+      "flex-layout.row#discount-grid"
+    ]
+  },
+  "rich-text#tablet-home": {
+    "props": {
+      "text": "Tablet size"
+    }
+  }
+}

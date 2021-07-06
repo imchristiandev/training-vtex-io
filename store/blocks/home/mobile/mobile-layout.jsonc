@@ -1,0 +1,14 @@
+{
+  "responsive-layout.phone#home": {
+    "title": "Presentación Mobile",
+    "children": [
+      "rich-text#phone-home",
+      "flex-layout.row#discount-grid"
+    ]
+  },
+  "rich-text#phone-home": {
+    "props": {
+      "text": "Mobile size"
+    }
+  }
+}

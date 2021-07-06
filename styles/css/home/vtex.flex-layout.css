@@ -1,0 +1,9 @@
+.flexRowContent {
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.flexColChild--image {
+  padding: 4px 8px;
+}

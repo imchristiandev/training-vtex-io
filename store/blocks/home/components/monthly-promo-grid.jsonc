@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#monthly-promo-grid": {
+    "title": "Grilla de la promoción del mes",
+    "children": [
+      "flex-layout.col#monthly-promo-item-one",
+      "flex-layout.col#monthly-promo-item-two",
+      "flex-layout.col#monthly-promo-item-three",
+      "flex-layout.col#monthly-promo-item-four"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#monthly-promo-item-one": {
+    "children": ["image#monthly-promo-one"],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "image#monthly-promo-one": {
+    "props": {
+      "src": "assets/img/juguetes-banner.png"
+    }
+  },
+  "flex-layout.col#monthly-promo-item-two": {
+    "children": ["image#monthly-promo-two"],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "image#monthly-promo-two": {
+    "props": {
+      "src": "assets/img/asadores-banner.png"
+    }
+  },
+  "flex-layout.col#monthly-promo-item-three": {
+    "children": ["image#monthly-promo-three"],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "image#monthly-promo-three": {
+    "props": {
+      "src": "assets/img/lentes-y-reloj-banner.png"
+    }
+  },
+  "flex-layout.col#monthly-promo-item-four": {
+    "children": ["image#monthly-promo-four"],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "image#monthly-promo-four": {
+    "props": {
+      "src": "assets/img/caminadora-banner.png"
+    }
+  }
+}

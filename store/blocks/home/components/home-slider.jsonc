@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#slider": {
+    "title":  "Slider de Home",
+    "children": [
+      "flex-layout.col#slider"
+    ]
+  },
+  "flex-layout.col#slider": {
+    "children": [
+      "image#slider"
+    ]
+  },
+  "image#slider": {
+    "title": "Slider 1",
+    "props": {
+      "src": "assets/img/realiza-tus-compras-slide.png",
+      "alt": "Realiza tus compras de supermercado aquí en olímpica.com"
+    }
+  }
+}
