@@ -33,7 +33,8 @@
       "product-separator",
       "add-to-cart-button",
       "share",
-      "product-specifications"
+      "product-specifications",
+      "modal-trigger#buy-verification"
     ]
   },
   "flex-layout.row#price-quantity": {
@@ -42,11 +43,7 @@
       "product-quantity"
     ]
   },
-  "rich-text#infoPrincipal": {
-    "props": {
-      "text": "Aquí va a ir la información relevante a nuestro producto"
-    }
-  },
+  
   "shelf.relatedProducts": {
     "blocks": ["product-summary.shelf"],
     "props": {
@@ -55,6 +52,25 @@
         "titleText": "Se ha visto también",
         "itemsPerPage": 4
       }
+    }
+  },
+  "modal-trigger#buy-verification": {
+    "props": {
+      "trigger": "event",
+      "customPixelEventName": "addToCart"
+    },
+    "children": [
+      "modal-layout#buy-verification"
+    ]
+  },
+  "modal-layout#buy-verification": {
+    "children": [
+      "rich-text#buy-verification"
+    ]
+  },
+  "rich-text#buy-verification": {
+    "props": {
+      "text": "## Se compró con éxito"
     }
   }
 }

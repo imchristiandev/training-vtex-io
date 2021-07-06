@@ -24,13 +24,31 @@
 
   "product-summary.shelf": {
     "children": [
+      "product-summary-image",
       "product-summary-add-to-list-button",
+      "modal-trigger#quickview",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
       "add-to-cart-button"
+    ]
+  },
+  "modal-trigger#quickview": {
+    "children": [
+      "rich-text#quickview",
+      "modal-layout#quickview"
+    ]
+  },
+  "rich-text#quickview": {
+    "props": {
+      "text": "Vista Rápida"
+    }
+  },
+  "modal-layout#quickview": {
+    "children": [
+      "flex-layout.row#product-main"
     ]
   }
 }
