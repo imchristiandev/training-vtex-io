@@ -2,6 +2,7 @@
   "responsive-layout.tablet#home": {
     "title": "Presentación Tablet",
     "children": [
+      "flex-layout.row#main-text",
       "rich-text#tablet-home",
       "flex-layout.row#discount-grid"
     ]

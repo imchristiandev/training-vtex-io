@@ -8,12 +8,18 @@
   "flex-layout.col#main-text": {
     "children": [
       "rich-text#main-text-title",
+      "rich-text#pointer",
       "rich-text#main-text-paragraph",
       "modal-trigger#terms-and-conditions"
     ]/* ,
     "props": {
       "horizontalAlign": "CENTER"
     } */
+  },
+  "rich-text#pointer": {
+    "props": {
+      "text": "[Info de Karen](#karenSection)"
+    }
   },
   "rich-text#main-text-title": {
     "props": {

@@ -1,0 +1,32 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us-title",
+      "flex-layout.row#about-us-content"  
+    ]
+  },
+  
+  "flex-layout.row#about-us-title": {
+    "children": [
+      "rich-text#about-us-title"
+    ]
+  },
+  
+  "rich-text#about-us-title": {
+    "props": {
+      "text": "# Acerca de nosotros"
+    }
+  },
+
+  "flex-layout.row#about-us-content": {
+    "children": [
+      "rich-text#about-us-content"
+    ]
+  },
+  
+  "rich-text#about-us-content": {
+    "props": {
+      "text": "Inserta tu texto aquí"
+    }
+  }
+}
