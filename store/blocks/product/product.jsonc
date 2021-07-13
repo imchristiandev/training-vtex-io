@@ -65,12 +65,7 @@
   },
   "modal-layout#buy-verification": {
     "children": [
-      "rich-text#buy-verification"
+      "product-after-buy"
     ]
-  },
-  "rich-text#buy-verification": {
-    "props": {
-      "text": "## Se compró con éxito"
-    }
   }
 }
