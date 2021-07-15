@@ -6,7 +6,8 @@
       "flex-layout.row#main-text",
       "flex-layout.row#discount-grid",
       "flex-layout.row#monthly-promo-grid",
-      "id-wrapper"
+      "id-wrapper",
+      "worker-card"
     ]
   },
   "rich-text#desktop-home": {
@@ -19,6 +20,13 @@
     "props": {
       "wrapperId": "karenSection",
       "classes": ["wrapper", "wrapper__container"]
+    }
+  },
+  "worker-card": {
+    "props": {
+      "name": "Christian",
+      "lastName": "Ramírez",
+      "id": 2
     }
   },
   "rich-text#karen": {
